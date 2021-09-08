@@ -1,0 +1,19 @@
+{
+    "baseUrl": "https://www.google.com/",
+    "chromeWebSecurity": false,
+    "retries": {
+        "runMode": 1,
+        "openMode": 0
+    },
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+}
